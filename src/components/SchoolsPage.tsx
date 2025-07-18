@@ -99,3 +99,18 @@ const SchoolsPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Is Your School Ready to Join Us?
           </h2>
+          <p className="text-xl mb-8 text-green-100 max-w-3xl mx-auto">
+            Encourage your school to become a member of TASSA and contribute to a national
+            movement dedicated to academic excellence and collaboration.
+          </p>
+          <button className="inline-flex items-center px-8 py-4 bg-white hover:bg-gray-100 text-gray-900 font-bold text-lg rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <Users className="mr-2" size={24} />
+            Register Your School
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SchoolsPage;
